@@ -1,0 +1,547 @@
+Test/Admin/AdminViewTest.java:1:	Package name contains upper case characters
+Test/Admin/AdminViewTest.java:4:	No need to import a type that lives in the same package
+Test/Admin/AdminViewTest.java:6:	Each class should declare at least one constructor
+Test/Admin/AdminViewTest.java:6:	headerCommentRequirement Required
+Test/Admin/AdminViewTest.java:9:	publicMethodCommentRequirement Required
+Test/Admin/AdminViewTest.java:10:	Local variable 'startview' could be declared final
+Test/Admin/InfoTest.java:1:	Package name contains upper case characters
+Test/Admin/InfoTest.java:6:	No need to import a type that lives in the same package
+Test/Admin/InfoTest.java:7:	No need to import a type that lives in the same package
+Test/Admin/InfoTest.java:9:	Each class should declare at least one constructor
+Test/Admin/InfoTest.java:9:	headerCommentRequirement Required
+Test/Admin/InfoTest.java:12:	publicMethodCommentRequirement Required
+Test/Admin/InfoTest.java:13:	Local variable 'tempspot' could be declared final
+Test/Admin/InfoTest.java:14:	Local variable 'info' could be declared final
+Test/Admin/InfoTest.java:21:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Test/Admin/SpotTest.java:1:	Package name contains upper case characters
+Test/Admin/SpotTest.java:4:	Each class should declare at least one constructor
+Test/Admin/SpotTest.java:4:	headerCommentRequirement Required
+Test/Admin/SpotTest.java:7:	Document empty method
+Test/Admin/SpotTest.java:7:	Method names should not start with capital letters
+Test/Admin/SpotTest.java:7:	publicMethodCommentRequirement Required
+Test/Admin/databaseTest.java:1:	Package name contains upper case characters
+Test/Admin/databaseTest.java:12:	No need to import a type that lives in the same package
+Test/Admin/databaseTest.java:13:	No need to import a type that lives in the same package
+Test/Admin/databaseTest.java:15:	Class names should begin with an uppercase character
+Test/Admin/databaseTest.java:15:	Each class should declare at least one constructor
+Test/Admin/databaseTest.java:15:	headerCommentRequirement Required
+Test/Admin/databaseTest.java:18:	Method names should not start with capital letters
+Test/Admin/databaseTest.java:18:	publicMethodCommentRequirement Required
+Test/Admin/databaseTest.java:19:	Local variable 'database' could be declared final
+Test/Admin/databaseTest.java:20:	Local variable 'spotList1' could be declared final
+Test/Admin/databaseTest.java:23:	Avoid variables with short names like i
+Test/Admin/databaseTest.java:23:	Local variable 'i' could be declared final
+Test/Admin/databaseTest.java:25:	Local variable 'spotList2' could be declared final
+Test/Admin/databaseTest.java:28:	Avoid using if...else statements without curly braces
+Test/Admin/databaseTest.java:28:	Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing import 'junit.framework.Assert'
+Test/Admin/databaseTest.java:30:	Avoid using if...else statements without curly braces
+Test/Admin/databaseTest.java:34:	Method names should not start with capital letters
+Test/Admin/databaseTest.java:34:	publicMethodCommentRequirement Required
+Test/Admin/databaseTest.java:35:	Local variable 'database' could be declared final
+Test/Admin/databaseTest.java:36:	Local variable 'spotlist' could be declared final
+Test/Guest/GuestViewTest.java:1:	Package name contains upper case characters
+Test/Guest/GuestViewTest.java:4:	No need to import a type that lives in the same package
+Test/Guest/GuestViewTest.java:6:	Each class should declare at least one constructor
+Test/Guest/GuestViewTest.java:6:	headerCommentRequirement Required
+Test/Guest/GuestViewTest.java:9:	publicMethodCommentRequirement Required
+Test/Guest/GuestViewTest.java:10:	Local variable 'startview' could be declared final
+src/Admin/AdminView.java:1:	Package name contains upper case characters
+src/Admin/AdminView.java:32:	The class 'AdminView' has a Cyclomatic Complexity of 16 (Highest = 27).
+src/Admin/AdminView.java:32:	The class 'AdminView' has a Modified Cyclomatic Complexity of 14 (Highest = 25).
+src/Admin/AdminView.java:32:	The class 'AdminView' has a Standard Cyclomatic Complexity of 14 (Highest = 25).
+src/Admin/AdminView.java:32:	This class has too many methods, consider refactoring it.
+src/Admin/AdminView.java:32:	headerCommentRequirement Required
+src/Admin/AdminView.java:33:	Avoid using redundant field initializer for 'spotNew'
+src/Admin/AdminView.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:33:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:33:	fieldCommentRequirement Required
+src/Admin/AdminView.java:34:	Avoid using redundant field initializer for 'spotEdit'
+src/Admin/AdminView.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:34:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:34:	fieldCommentRequirement Required
+src/Admin/AdminView.java:35:	Avoid using redundant field initializer for 'spotDelete'
+src/Admin/AdminView.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:35:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:35:	fieldCommentRequirement Required
+src/Admin/AdminView.java:36:	Avoid using redundant field initializer for 'gotInfo'
+src/Admin/AdminView.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:36:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:36:	fieldCommentRequirement Required
+src/Admin/AdminView.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:37:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:37:	fieldCommentRequirement Required
+src/Admin/AdminView.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:38:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:38:	fieldCommentRequirement Required
+src/Admin/AdminView.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:39:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:39:	fieldCommentRequirement Required
+src/Admin/AdminView.java:40:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:40:	fieldCommentRequirement Required
+src/Admin/AdminView.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:41:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:41:	fieldCommentRequirement Required
+src/Admin/AdminView.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:42:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:42:	fieldCommentRequirement Required
+src/Admin/AdminView.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:43:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:43:	fieldCommentRequirement Required
+src/Admin/AdminView.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:44:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:44:	fieldCommentRequirement Required
+src/Admin/AdminView.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:45:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:45:	fieldCommentRequirement Required
+src/Admin/AdminView.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:46:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:46:	fieldCommentRequirement Required
+src/Admin/AdminView.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/AdminView.java:47:	Perhaps 'buttonQuit' could be replaced by a local variable.
+src/Admin/AdminView.java:47:	Private field 'buttonCanc' could be made final; it is only initialized in the declaration or constructor.
+src/Admin/AdminView.java:47:	Private field 'buttonConf' could be made final; it is only initialized in the declaration or constructor.
+src/Admin/AdminView.java:47:	Private field 'buttonDelete' could be made final; it is only initialized in the declaration or constructor.
+src/Admin/AdminView.java:47:	Private field 'buttonEdit' could be made final; it is only initialized in the declaration or constructor.
+src/Admin/AdminView.java:47:	Private field 'buttonNew' could be made final; it is only initialized in the declaration or constructor.
+src/Admin/AdminView.java:47:	Private field 'buttonQuit' could be made final; it is only initialized in the declaration or constructor.
+src/Admin/AdminView.java:47:	fieldCommentRequirement Required
+src/Admin/AdminView.java:49:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/Admin/AdminView.java:49:	Parameter 'args' is not assigned and could be declared final
+src/Admin/AdminView.java:49:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:50:	To be compliant to J2EE, a webapp should not use any thread.
+src/Admin/AdminView.java:52:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:53:	Local variable 'adminView' could be declared final
+src/Admin/AdminView.java:59:	It is a good practice to call super() in a constructor
+src/Admin/AdminView.java:59:	The constructor 'AdminView' has a Cyclomatic Complexity of 27.
+src/Admin/AdminView.java:59:	The constructor 'AdminView' has a Modified Cyclomatic Complexity of 25.
+src/Admin/AdminView.java:59:	The constructor 'AdminView' has a Standard Cyclomatic Complexity of 25.
+src/Admin/AdminView.java:59:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:62:	Parameter 'arg0' is not assigned and could be declared final
+src/Admin/AdminView.java:62:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:77:	Parameter 'arg0' is not assigned and could be declared final
+src/Admin/AdminView.java:77:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:78:	Avoid using if statements without curly braces
+src/Admin/AdminView.java:83:	Parameter 'arg0' is not assigned and could be declared final
+src/Admin/AdminView.java:83:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:84:	Avoid using if statements without curly braces
+src/Admin/AdminView.java:89:	Avoid variables with short names like e
+src/Admin/AdminView.java:89:	Parameter 'e' is not assigned and could be declared final
+src/Admin/AdminView.java:89:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:95:	Local variable 'location' could be declared final
+src/Admin/AdminView.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/Admin/AdminView.java:110:	Parameter 'arg0' is not assigned and could be declared final
+src/Admin/AdminView.java:110:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:124:	Parameter 'arg0' is not assigned and could be declared final
+src/Admin/AdminView.java:124:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:125:	Avoid using if statements without curly braces
+src/Admin/AdminView.java:140:	Avoid variables with short names like e
+src/Admin/AdminView.java:140:	Parameter 'e' is not assigned and could be declared final
+src/Admin/AdminView.java:140:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:157:	Avoid variables with short names like e
+src/Admin/AdminView.java:157:	Parameter 'e' is not assigned and could be declared final
+src/Admin/AdminView.java:157:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:159:	Position literals first in String comparisons
+src/Admin/AdminView.java:159:	Position literals first in String comparisons
+src/Admin/AdminView.java:159:	Potential violation of Law of Demeter (static property access)
+src/Admin/AdminView.java:159:	Potential violation of Law of Demeter (static property access)
+src/Admin/AdminView.java:159:	Useless parentheses.
+src/Admin/AdminView.java:159:	Useless parentheses.
+src/Admin/AdminView.java:160:	Avoid using if...else statements without curly braces
+src/Admin/AdminView.java:162:	Avoid using if...else statements without curly braces
+src/Admin/AdminView.java:162:	Potential violation of Law of Demeter (static property access)
+src/Admin/AdminView.java:163:	Position literals first in String comparisons
+src/Admin/AdminView.java:163:	Position literals first in String comparisons
+src/Admin/AdminView.java:163:	Potential violation of Law of Demeter (static property access)
+src/Admin/AdminView.java:163:	Potential violation of Law of Demeter (static property access)
+src/Admin/AdminView.java:163:	Useless parentheses.
+src/Admin/AdminView.java:163:	Useless parentheses.
+src/Admin/AdminView.java:164:	Avoid using if...else statements without curly braces
+src/Admin/AdminView.java:166:	Avoid using if...else statements without curly braces
+src/Admin/AdminView.java:166:	Potential violation of Law of Demeter (static property access)
+src/Admin/AdminView.java:175:	Potential violation of Law of Demeter (object not created locally)
+src/Admin/AdminView.java:199:	Avoid variables with short names like e
+src/Admin/AdminView.java:199:	Parameter 'e' is not assigned and could be declared final
+src/Admin/AdminView.java:199:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:200:	Avoid using if statements without curly braces
+src/Admin/AdminView.java:200:	Use opposite operator instead of the logic complement operator.
+src/Admin/AdminView.java:216:	Avoid variables with short names like s
+src/Admin/AdminView.java:216:	Local variable 's' could be declared final
+src/Admin/AdminView.java:227:	Parameter 'arg0' is not assigned and could be declared final
+src/Admin/AdminView.java:227:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:237:	Parameter 'tsp' is not assigned and could be declared final
+src/Admin/AdminView.java:237:	The method 'spotview' has a Cyclomatic Complexity of 17.
+src/Admin/AdminView.java:237:	The method 'spotview' has a Modified Cyclomatic Complexity of 15.
+src/Admin/AdminView.java:237:	The method 'spotview' has a Standard Cyclomatic Complexity of 15.
+src/Admin/AdminView.java:237:	The method spotview() has an NPath complexity of 360
+src/Admin/AdminView.java:237:	Use explicit scoping instead of the default package private level
+src/Admin/AdminView.java:239:	Local variable 'button' could be declared final
+src/Admin/AdminView.java:241:	Avoid variables with short names like g
+src/Admin/AdminView.java:241:	Parameter 'g' is not assigned and could be declared final
+src/Admin/AdminView.java:241:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:247:	Potential violation of Law of Demeter (object not created locally)
+src/Admin/AdminView.java:248:	Potential violation of Law of Demeter (object not created locally)
+src/Admin/AdminView.java:251:	Avoid variables with short names like e
+src/Admin/AdminView.java:251:	Parameter 'e' is not assigned and could be declared final
+src/Admin/AdminView.java:251:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:252:	Avoid variables with short names like i
+src/Admin/AdminView.java:253:	Avoid using for statements without curly braces
+src/Admin/AdminView.java:254:	Avoid using if statements without curly braces
+src/Admin/AdminView.java:254:	Potential violation of Law of Demeter (method chain calls)
+src/Admin/AdminView.java:254:	Potential violation of Law of Demeter (method chain calls)
+src/Admin/AdminView.java:284:	Parameter 'arg0' is not assigned and could be declared final
+src/Admin/AdminView.java:284:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:285:	Avoid using if statements without curly braces
+src/Admin/AdminView.java:286:	These nested if statements could be combined
+src/Admin/AdminView.java:286:	Use opposite operator instead of the logic complement operator.
+src/Admin/AdminView.java:288:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/Admin/AdminView.java:291:	Avoid using if...else statements without curly braces
+src/Admin/AdminView.java:293:	Avoid using if...else statements without curly braces
+src/Admin/AdminView.java:297:	Parameter 'arg0' is not assigned and could be declared final
+src/Admin/AdminView.java:297:	publicMethodCommentRequirement Required
+src/Admin/AdminView.java:299:	Avoid using if...else statements without curly braces
+src/Admin/AdminView.java:301:	Avoid using if...else statements without curly braces
+src/Admin/AdminView.java:304:	Potential violation of Law of Demeter (object not created locally)
+src/Admin/InfoView.java:1:	Package name contains upper case characters
+src/Admin/InfoView.java:13:	Each class should declare at least one constructor
+src/Admin/InfoView.java:13:	headerCommentRequirement Required
+src/Admin/InfoView.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/InfoView.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/InfoView.java:14:	Variables should start with a lowercase character, 'Descr' starts with uppercase character.
+src/Admin/InfoView.java:14:	Variables should start with a lowercase character, 'Title' starts with uppercase character.
+src/Admin/InfoView.java:14:	fieldCommentRequirement Required
+src/Admin/InfoView.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/InfoView.java:15:	Use explicit scoping instead of the default package private level
+src/Admin/InfoView.java:15:	fieldCommentRequirement Required
+src/Admin/InfoView.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/InfoView.java:16:	Use explicit scoping instead of the default package private level
+src/Admin/InfoView.java:16:	fieldCommentRequirement Required
+src/Admin/InfoView.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/InfoView.java:17:	Use explicit scoping instead of the default package private level
+src/Admin/InfoView.java:17:	fieldCommentRequirement Required
+src/Admin/InfoView.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/InfoView.java:18:	Use explicit scoping instead of the default package private level
+src/Admin/InfoView.java:18:	fieldCommentRequirement Required
+src/Admin/InfoView.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/InfoView.java:19:	Use explicit scoping instead of the default package private level
+src/Admin/InfoView.java:19:	fieldCommentRequirement Required
+src/Admin/InfoView.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/InfoView.java:20:	Use explicit scoping instead of the default package private level
+src/Admin/InfoView.java:20:	fieldCommentRequirement Required
+src/Admin/InfoView.java:22:	Avoid variables with short names like X
+src/Admin/InfoView.java:22:	Avoid variables with short names like Y
+src/Admin/InfoView.java:22:	Parameter 'X' is not assigned and could be declared final
+src/Admin/InfoView.java:22:	Parameter 'Y' is not assigned and could be declared final
+src/Admin/InfoView.java:22:	Parameter 'spot' is not assigned and could be declared final
+src/Admin/InfoView.java:22:	Variables should start with a lowercase character, 'X' starts with uppercase character.
+src/Admin/InfoView.java:22:	Variables should start with a lowercase character, 'Y' starts with uppercase character.
+src/Admin/InfoView.java:22:	publicMethodCommentRequirement Required
+src/Admin/InfoView.java:25:	Local variable 'guestView' could be declared final
+src/Admin/InfoView.java:27:	Avoid variables with short names like g
+src/Admin/InfoView.java:27:	Parameter 'g' is not assigned and could be declared final
+src/Admin/InfoView.java:27:	publicMethodCommentRequirement Required
+src/Admin/InfoView.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/Admin/InfoView.java:35:	Avoid using if...else statements without curly braces
+src/Admin/InfoView.java:37:	Avoid using if...else statements without curly braces
+src/Admin/InfoView.java:44:	Potential violation of Law of Demeter (method chain calls)
+src/Admin/InfoView.java:45:	Avoid using if...else statements without curly braces
+src/Admin/InfoView.java:47:	Avoid using if...else statements without curly braces
+src/Admin/InfoView.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/Admin/InfoView.java:55:	Avoid using if...else statements without curly braces
+src/Admin/InfoView.java:57:	Avoid using if...else statements without curly braces
+src/Admin/InfoView.java:62:	publicMethodCommentRequirement Required
+src/Admin/database.java:1:	Package name contains upper case characters
+src/Admin/database.java:5:	Class names should begin with an uppercase character
+src/Admin/database.java:5:	Each class should declare at least one constructor
+src/Admin/database.java:5:	headerCommentRequirement Required
+src/Admin/database.java:6:	Avoid using redundant field initializer for 'connection'
+src/Admin/database.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/database.java:6:	Use explicit scoping instead of the default package private level
+src/Admin/database.java:6:	fieldCommentRequirement Required
+src/Admin/database.java:7:	Avoid using redundant field initializer for 'statement'
+src/Admin/database.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/database.java:7:	Use explicit scoping instead of the default package private level
+src/Admin/database.java:7:	fieldCommentRequirement Required
+src/Admin/database.java:8:	Avoid using redundant field initializer for 'result'
+src/Admin/database.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/database.java:8:	Use explicit scoping instead of the default package private level
+src/Admin/database.java:8:	fieldCommentRequirement Required
+src/Admin/database.java:10:	Method names should not start with capital letters
+src/Admin/database.java:10:	publicMethodCommentRequirement Required
+src/Admin/database.java:12:	Local variable 'url' could be declared final
+src/Admin/database.java:13:	Local variable 'user' could be declared final
+src/Admin/database.java:14:	Local variable 'password' could be declared final
+src/Admin/database.java:17:	Potential violation of Law of Demeter (static property access)
+src/Admin/database.java:20:	Found 'DD'-anomaly for variable 'bool' (lines '20'-'23').
+src/Admin/database.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/Admin/database.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/Admin/database.java:36:	System.out.println is used
+src/Admin/database.java:38:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Admin/database.java:39:	Avoid printStackTrace(); use a logger call instead.
+src/Admin/database.java:39:	Potential violation of Law of Demeter (object not created locally)
+src/Admin/database.java:43:	Method names should not start with capital letters
+src/Admin/database.java:43:	Parameter 'spotlist' is not assigned and could be declared final
+src/Admin/database.java:43:	publicMethodCommentRequirement Required
+src/Admin/database.java:48:	Avoid instantiating new objects inside loops
+src/Admin/database.java:58:	System.out.println is used
+src/Admin/database.java:62:	Method names should not start with capital letters
+src/Admin/database.java:62:	Parameter 'spot' is not assigned and could be declared final
+src/Admin/database.java:62:	publicMethodCommentRequirement Required
+src/Admin/database.java:68:	System.out.println is used
+src/Admin/database.java:72:	Method names should not start with capital letters
+src/Admin/database.java:72:	Parameter 'spot' is not assigned and could be declared final
+src/Admin/database.java:72:	publicMethodCommentRequirement Required
+src/Admin/database.java:77:	System.out.println is used
+src/Admin/database.java:81:	Method names should not start with capital letters
+src/Admin/database.java:81:	Parameter 'spot' is not assigned and could be declared final
+src/Admin/database.java:81:	publicMethodCommentRequirement Required
+src/Admin/database.java:85:	System.out.println is used
+src/Admin/database.java:89:	Method names should not start with capital letters
+src/Admin/database.java:89:	publicMethodCommentRequirement Required
+src/Admin/database.java:101:	System.out.println is used
+src/Admin/spot.java:1:	Package name contains upper case characters
+src/Admin/spot.java:3:	Avoid short class names like spot
+src/Admin/spot.java:3:	Class names should begin with an uppercase character
+src/Admin/spot.java:3:	Each class should declare at least one constructor
+src/Admin/spot.java:3:	This class has too many methods, consider refactoring it.
+src/Admin/spot.java:3:	headerCommentRequirement Required
+src/Admin/spot.java:4:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/spot.java:4:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/spot.java:4:	fieldCommentRequirement Required
+src/Admin/spot.java:5:	Avoid variables with short names like id
+src/Admin/spot.java:5:	Avoid variables with short names like x
+src/Admin/spot.java:5:	Avoid variables with short names like y
+src/Admin/spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Admin/spot.java:5:	fieldCommentRequirement Required
+src/Admin/spot.java:7:	Avoid variables with short names like id
+src/Admin/spot.java:7:	Method names should not start with capital letters
+src/Admin/spot.java:7:	Parameter 'id' is not assigned and could be declared final
+src/Admin/spot.java:7:	publicMethodCommentRequirement Required
+src/Admin/spot.java:11:	Method names should not start with capital letters
+src/Admin/spot.java:11:	publicMethodCommentRequirement Required
+src/Admin/spot.java:15:	Method names should not start with capital letters
+src/Admin/spot.java:15:	Parameter 'title' is not assigned and could be declared final
+src/Admin/spot.java:15:	publicMethodCommentRequirement Required
+src/Admin/spot.java:19:	Method names should not start with capital letters
+src/Admin/spot.java:19:	publicMethodCommentRequirement Required
+src/Admin/spot.java:23:	Method names should not start with capital letters
+src/Admin/spot.java:23:	Parameter 'desc' is not assigned and could be declared final
+src/Admin/spot.java:23:	publicMethodCommentRequirement Required
+src/Admin/spot.java:27:	Method names should not start with capital letters
+src/Admin/spot.java:27:	publicMethodCommentRequirement Required
+src/Admin/spot.java:31:	Avoid variables with short names like x
+src/Admin/spot.java:31:	Method names should not start with capital letters
+src/Admin/spot.java:31:	Parameter 'x' is not assigned and could be declared final
+src/Admin/spot.java:31:	publicMethodCommentRequirement Required
+src/Admin/spot.java:35:	Avoid variables with short names like y
+src/Admin/spot.java:35:	Method names should not start with capital letters
+src/Admin/spot.java:35:	Parameter 'y' is not assigned and could be declared final
+src/Admin/spot.java:35:	publicMethodCommentRequirement Required
+src/Admin/spot.java:39:	Method names should not start with capital letters
+src/Admin/spot.java:39:	publicMethodCommentRequirement Required
+src/Admin/spot.java:43:	Method names should not start with capital letters
+src/Admin/spot.java:43:	publicMethodCommentRequirement Required
+src/Admin/spot.java:47:	Method names should not start with capital letters
+src/Admin/spot.java:47:	publicMethodCommentRequirement Required
+src/Guest/GuestView.java:1:	Package name contains upper case characters
+src/Guest/GuestView.java:8:	Avoid unused imports such as 'java.awt.MouseInfo'
+src/Guest/GuestView.java:9:	Avoid unused imports such as 'java.awt.Point'
+src/Guest/GuestView.java:15:	Avoid unused imports such as 'javax.swing.JOptionPane'
+src/Guest/GuestView.java:16:	Avoid unused imports such as 'javax.swing.JPanel'
+src/Guest/GuestView.java:25:	Avoid unused imports such as 'javax.swing.border.LineBorder'
+src/Guest/GuestView.java:27:	Avoid unused imports such as 'java.awt.Color'
+src/Guest/GuestView.java:32:	headerCommentRequirement Required
+src/Guest/GuestView.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/GuestView.java:33:	Use explicit scoping instead of the default package private level
+src/Guest/GuestView.java:33:	fieldCommentRequirement Required
+src/Guest/GuestView.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/GuestView.java:34:	Use explicit scoping instead of the default package private level
+src/Guest/GuestView.java:34:	fieldCommentRequirement Required
+src/Guest/GuestView.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/GuestView.java:35:	Use explicit scoping instead of the default package private level
+src/Guest/GuestView.java:35:	fieldCommentRequirement Required
+src/Guest/GuestView.java:36:	Use explicit scoping instead of the default package private level
+src/Guest/GuestView.java:36:	fieldCommentRequirement Required
+src/Guest/GuestView.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/GuestView.java:37:	Use explicit scoping instead of the default package private level
+src/Guest/GuestView.java:37:	fieldCommentRequirement Required
+src/Guest/GuestView.java:38:	Use explicit scoping instead of the default package private level
+src/Guest/GuestView.java:38:	fieldCommentRequirement Required
+src/Guest/GuestView.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/GuestView.java:39:	Use explicit scoping instead of the default package private level
+src/Guest/GuestView.java:39:	fieldCommentRequirement Required
+src/Guest/GuestView.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/GuestView.java:40:	Use explicit scoping instead of the default package private level
+src/Guest/GuestView.java:40:	fieldCommentRequirement Required
+src/Guest/GuestView.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/GuestView.java:41:	Use explicit scoping instead of the default package private level
+src/Guest/GuestView.java:41:	fieldCommentRequirement Required
+src/Guest/GuestView.java:43:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/Guest/GuestView.java:43:	Parameter 'args' is not assigned and could be declared final
+src/Guest/GuestView.java:43:	publicMethodCommentRequirement Required
+src/Guest/GuestView.java:44:	To be compliant to J2EE, a webapp should not use any thread.
+src/Guest/GuestView.java:46:	publicMethodCommentRequirement Required
+src/Guest/GuestView.java:47:	Local variable 'guestView' could be declared final
+src/Guest/GuestView.java:53:	It is a good practice to call super() in a constructor
+src/Guest/GuestView.java:53:	publicMethodCommentRequirement Required
+src/Guest/GuestView.java:56:	Parameter 'arg0' is not assigned and could be declared final
+src/Guest/GuestView.java:56:	publicMethodCommentRequirement Required
+src/Guest/GuestView.java:70:	Avoid variables with short names like s
+src/Guest/GuestView.java:70:	Local variable 's' could be declared final
+src/Guest/GuestView.java:77:	Parameter 'tsp' is not assigned and could be declared final
+src/Guest/GuestView.java:77:	Use explicit scoping instead of the default package private level
+src/Guest/GuestView.java:79:	Local variable 'button' could be declared final
+src/Guest/GuestView.java:81:	Avoid variables with short names like g
+src/Guest/GuestView.java:81:	Parameter 'g' is not assigned and could be declared final
+src/Guest/GuestView.java:81:	publicMethodCommentRequirement Required
+src/Guest/GuestView.java:91:	Avoid variables with short names like e
+src/Guest/GuestView.java:91:	Parameter 'e' is not assigned and could be declared final
+src/Guest/GuestView.java:91:	publicMethodCommentRequirement Required
+src/Guest/GuestView.java:92:	Avoid variables with short names like i
+src/Guest/GuestView.java:93:	Avoid using for statements without curly braces
+src/Guest/GuestView.java:94:	Avoid using if statements without curly braces
+src/Guest/GuestView.java:94:	Potential violation of Law of Demeter (method chain calls)
+src/Guest/GuestView.java:94:	Potential violation of Law of Demeter (method chain calls)
+src/Guest/GuestView.java:104:	Parameter 'arg0' is not assigned and could be declared final
+src/Guest/GuestView.java:104:	publicMethodCommentRequirement Required
+src/Guest/GuestView.java:106:	Avoid using if statements without curly braces
+src/Guest/GuestView.java:106:	Use opposite operator instead of the logic complement operator.
+src/Guest/GuestView.java:111:	Parameter 'arg0' is not assigned and could be declared final
+src/Guest/GuestView.java:111:	publicMethodCommentRequirement Required
+src/Guest/InfoView.java:1:	Package name contains upper case characters
+src/Guest/InfoView.java:13:	Each class should declare at least one constructor
+src/Guest/InfoView.java:13:	headerCommentRequirement Required
+src/Guest/InfoView.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/InfoView.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/InfoView.java:14:	Variables should start with a lowercase character, 'Descr' starts with uppercase character.
+src/Guest/InfoView.java:14:	Variables should start with a lowercase character, 'Title' starts with uppercase character.
+src/Guest/InfoView.java:14:	fieldCommentRequirement Required
+src/Guest/InfoView.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/InfoView.java:15:	Use explicit scoping instead of the default package private level
+src/Guest/InfoView.java:15:	fieldCommentRequirement Required
+src/Guest/InfoView.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/InfoView.java:16:	Use explicit scoping instead of the default package private level
+src/Guest/InfoView.java:16:	fieldCommentRequirement Required
+src/Guest/InfoView.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/InfoView.java:17:	Use explicit scoping instead of the default package private level
+src/Guest/InfoView.java:17:	fieldCommentRequirement Required
+src/Guest/InfoView.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/InfoView.java:18:	Use explicit scoping instead of the default package private level
+src/Guest/InfoView.java:18:	fieldCommentRequirement Required
+src/Guest/InfoView.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/InfoView.java:19:	Use explicit scoping instead of the default package private level
+src/Guest/InfoView.java:19:	fieldCommentRequirement Required
+src/Guest/InfoView.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/InfoView.java:20:	Use explicit scoping instead of the default package private level
+src/Guest/InfoView.java:20:	fieldCommentRequirement Required
+src/Guest/InfoView.java:22:	Avoid variables with short names like X
+src/Guest/InfoView.java:22:	Avoid variables with short names like Y
+src/Guest/InfoView.java:22:	Parameter 'X' is not assigned and could be declared final
+src/Guest/InfoView.java:22:	Parameter 'Y' is not assigned and could be declared final
+src/Guest/InfoView.java:22:	Parameter 'spot' is not assigned and could be declared final
+src/Guest/InfoView.java:22:	Variables should start with a lowercase character, 'X' starts with uppercase character.
+src/Guest/InfoView.java:22:	Variables should start with a lowercase character, 'Y' starts with uppercase character.
+src/Guest/InfoView.java:22:	publicMethodCommentRequirement Required
+src/Guest/InfoView.java:25:	Local variable 'guestView' could be declared final
+src/Guest/InfoView.java:27:	Avoid variables with short names like g
+src/Guest/InfoView.java:27:	Parameter 'g' is not assigned and could be declared final
+src/Guest/InfoView.java:27:	publicMethodCommentRequirement Required
+src/Guest/InfoView.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/Guest/InfoView.java:35:	Avoid using if...else statements without curly braces
+src/Guest/InfoView.java:37:	Avoid using if...else statements without curly braces
+src/Guest/InfoView.java:44:	Potential violation of Law of Demeter (method chain calls)
+src/Guest/InfoView.java:45:	Avoid using if...else statements without curly braces
+src/Guest/InfoView.java:47:	Avoid using if...else statements without curly braces
+src/Guest/InfoView.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/Guest/InfoView.java:55:	Avoid using if...else statements without curly braces
+src/Guest/InfoView.java:57:	Avoid using if...else statements without curly braces
+src/Guest/InfoView.java:62:	publicMethodCommentRequirement Required
+src/Guest/database.java:1:	Package name contains upper case characters
+src/Guest/database.java:5:	Class names should begin with an uppercase character
+src/Guest/database.java:5:	Each class should declare at least one constructor
+src/Guest/database.java:5:	headerCommentRequirement Required
+src/Guest/database.java:6:	Avoid using redundant field initializer for 'connection'
+src/Guest/database.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/database.java:6:	Use explicit scoping instead of the default package private level
+src/Guest/database.java:6:	fieldCommentRequirement Required
+src/Guest/database.java:7:	Avoid using redundant field initializer for 'statement'
+src/Guest/database.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/database.java:7:	Use explicit scoping instead of the default package private level
+src/Guest/database.java:7:	fieldCommentRequirement Required
+src/Guest/database.java:8:	Avoid using redundant field initializer for 'result'
+src/Guest/database.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/database.java:8:	Use explicit scoping instead of the default package private level
+src/Guest/database.java:8:	fieldCommentRequirement Required
+src/Guest/database.java:10:	Method names should not start with capital letters
+src/Guest/database.java:10:	publicMethodCommentRequirement Required
+src/Guest/database.java:12:	Local variable 'url' could be declared final
+src/Guest/database.java:13:	Local variable 'user' could be declared final
+src/Guest/database.java:14:	Local variable 'password' could be declared final
+src/Guest/database.java:17:	Potential violation of Law of Demeter (static property access)
+src/Guest/database.java:20:	Found 'DD'-anomaly for variable 'bool' (lines '20'-'23').
+src/Guest/database.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/Guest/database.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/Guest/database.java:36:	System.out.println is used
+src/Guest/database.java:38:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Guest/database.java:39:	Avoid printStackTrace(); use a logger call instead.
+src/Guest/database.java:39:	Potential violation of Law of Demeter (object not created locally)
+src/Guest/database.java:43:	Method names should not start with capital letters
+src/Guest/database.java:43:	Parameter 'spotlist' is not assigned and could be declared final
+src/Guest/database.java:43:	publicMethodCommentRequirement Required
+src/Guest/database.java:48:	Avoid instantiating new objects inside loops
+src/Guest/database.java:58:	System.out.println is used
+src/Guest/database.java:62:	Method names should not start with capital letters
+src/Guest/database.java:62:	publicMethodCommentRequirement Required
+src/Guest/database.java:74:	System.out.println is used
+src/Guest/spot.java:1:	Package name contains upper case characters
+src/Guest/spot.java:3:	Avoid short class names like spot
+src/Guest/spot.java:3:	Class names should begin with an uppercase character
+src/Guest/spot.java:3:	Each class should declare at least one constructor
+src/Guest/spot.java:3:	This class has too many methods, consider refactoring it.
+src/Guest/spot.java:3:	headerCommentRequirement Required
+src/Guest/spot.java:4:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/spot.java:4:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/spot.java:4:	fieldCommentRequirement Required
+src/Guest/spot.java:5:	Avoid variables with short names like id
+src/Guest/spot.java:5:	Avoid variables with short names like x
+src/Guest/spot.java:5:	Avoid variables with short names like y
+src/Guest/spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest/spot.java:5:	fieldCommentRequirement Required
+src/Guest/spot.java:7:	Avoid variables with short names like id
+src/Guest/spot.java:7:	Method names should not start with capital letters
+src/Guest/spot.java:7:	Parameter 'id' is not assigned and could be declared final
+src/Guest/spot.java:7:	publicMethodCommentRequirement Required
+src/Guest/spot.java:11:	Method names should not start with capital letters
+src/Guest/spot.java:11:	publicMethodCommentRequirement Required
+src/Guest/spot.java:15:	Method names should not start with capital letters
+src/Guest/spot.java:15:	Parameter 'title' is not assigned and could be declared final
+src/Guest/spot.java:15:	publicMethodCommentRequirement Required
+src/Guest/spot.java:19:	Method names should not start with capital letters
+src/Guest/spot.java:19:	publicMethodCommentRequirement Required
+src/Guest/spot.java:23:	Method names should not start with capital letters
+src/Guest/spot.java:23:	Parameter 'desc' is not assigned and could be declared final
+src/Guest/spot.java:23:	publicMethodCommentRequirement Required
+src/Guest/spot.java:27:	Method names should not start with capital letters
+src/Guest/spot.java:27:	publicMethodCommentRequirement Required
+src/Guest/spot.java:31:	Avoid variables with short names like x
+src/Guest/spot.java:31:	Method names should not start with capital letters
+src/Guest/spot.java:31:	Parameter 'x' is not assigned and could be declared final
+src/Guest/spot.java:31:	publicMethodCommentRequirement Required
+src/Guest/spot.java:35:	Avoid variables with short names like y
+src/Guest/spot.java:35:	Method names should not start with capital letters
+src/Guest/spot.java:35:	Parameter 'y' is not assigned and could be declared final
+src/Guest/spot.java:35:	publicMethodCommentRequirement Required
+src/Guest/spot.java:39:	Method names should not start with capital letters
+src/Guest/spot.java:39:	publicMethodCommentRequirement Required
+src/Guest/spot.java:43:	Method names should not start with capital letters
+src/Guest/spot.java:43:	publicMethodCommentRequirement Required
+src/Guest/spot.java:47:	Method names should not start with capital letters
+src/Guest/spot.java:47:	publicMethodCommentRequirement Required
